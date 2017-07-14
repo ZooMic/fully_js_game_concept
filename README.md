@@ -5,6 +5,6 @@ Functionality
 -------------
 
 * Multiplayer,
-* Possibility of returning to game after refresh or closing tab or closing browser,
+* Possibility of returning to game after refreshing, closing tab or closing browser,
 * Player arrow movement,
 
