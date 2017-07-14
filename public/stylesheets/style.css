@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+canvas {
+    background-color: black;
+}
+
+.grey {
+    background-color: silver;
+}
+
+#sing-in-window, #ask-user-window, #my-canvas {
+    display:none;
+}
+
+#sign-in-window-err-msg {
+    color: red;
+}
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <title>Catch me if you can!</title>
+    </head>
+    <body id="my-body">
+        <div id="sing-in-window">
+            <div class="grey" >
+                Your name: <input id="username" type="text" name="username" />
+                <input id="sign-in-submit" type="submit" value="Sign In" />
+                <span id="sign-in-window-err-msg"> </span>
+            </div>
+            </div>
+        <div id="ask-user-window">
+            <div class="grey">
+                <span>You have played before, do you want to restore your state?</span>
+                <input class="ask-user-window-submit" type="submit" value="Yes">
+                <input class="ask-user-window-submit" type="submit" value="No">
+            </div>
+        </div>
+        <canvas id="my-canvas" tabindex='1'></canvas>
+    </body>
+    <script src="./bundle.js"></script>
+</html>
